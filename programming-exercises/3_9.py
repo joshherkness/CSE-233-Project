@@ -1,4 +1,9 @@
 # Program 3.9
+#
+# 1. Input the number of a roulette pocket in the range 0 to 36 inclusive.
+# 2. output the corresponding pocket color.
+#
+# NOTE: The use of range() function to accommodate even/odd number in certain ranges.
 
 def main():
     # Prompt user for pocket number.

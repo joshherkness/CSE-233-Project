@@ -1,4 +1,10 @@
 # Program 3.7
+#
+# 1. User enters two primary colors.
+# 2. Output secondary color that results from mixing the two colors.
+#
+# WARNING: Very terrible programming ahead.
+# However, we wanted to show the use of decision structures to complete the task.
 
 def main():
     possible_colors = ['red', 'blue', 'yellow']
