@@ -7,7 +7,8 @@
 
 ## *if statement*
 
-Use the if statement to specify a block of code to be executed if a condition is true.
+- Use the if statement to specify a block of code to be executed if a condition is true.
+- *Single alternative data structure* - has one alternate path
 
 ```py
 if True:
@@ -18,8 +19,8 @@ if True:
 
 ## *if-else statement*
 
-Use the else statement to specify a block of code to be executed if a condition is false.
-
+- Use the else statement to specify a block of code to be executed if a condition is false.
+- *Dual alternative data structure* - has two possible paths of execution
 
 ```py
 if False:
@@ -56,9 +57,23 @@ def main():
 main()
 ```
 ---
+
+## *Relational Operators*
+
+```py
+bool_less_than = 10 < 7
+bool_greater_than = 3 > 5
+bool_less_than_or_equal = 4 <= 2
+bool_greater_than_or_equal = 8 >= 4
+bool_equal = 9 == 9
+bool_not_equal = 6 != 2
+```
+
+---
+
 ## *Comparing Strings*
 
-Any comparison operator can be used to compare the ascii value of strings.
+Any relational operator can be used to compare the ascii value of strings.
 
 ```py
 a = 'Hello'
@@ -158,14 +173,24 @@ main()
 ```
 
 ---
-## *Booleans*
+## * Booleans*
 
 A *boolean* is a data type that can either be *True* or *False*.
 
 ```py
 a = not False and 7 > 8
 b = 'cat' == 'dog'
-is_logged_in = False
+c = not not not False or False
+```
+
+---
+
+## *Booleans (Answers)*
+
+```py
+a = False
+b = False
+c = True
 ```
 
 ---
